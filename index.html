@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"  href="css/style.css">
+        <title>Survey Project</title>
+        <h1>Airline Survey Form</h1>
+            <p>This won't take your time, and all responses would be treated with confidentiality.</p>
+    </head>
+
+    <body>
+        <div id="bg"></div>
+        <!--Personal Info -->
+
+        <form class="my-form">
+        <div class="form-group">
+             <label for="Name">Name</label>
+            <input id="Name" type="text" name="name" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input id="email" type="text" name="Email" placeholder="Email Address" required>
+        </div>
+        <div>
+            <label for="Birthday">Birthday:</label>
+            <input type="date" name="Birthday" class="Birthday" required>
+        </div>
+        <div class="form-group">
+             <label for="Numbers">Age:</label>
+             <input id="Numbers" type="text" name="Age" placeholder="Age" min="3" max="200" required>
+        </div>
+        <div class="form-group">
+            <label for="dropdown">Gender</label>
+                <select id="dropdown">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+        </div>
+    <!--Forms-->
+        <div class="form-group">
+            <label for="dropdown">Which is your Prefered choice of Airline Operator?</label>
+            <select id="dropdown">
+                <option value="Qatar Airways">Qatar Airways</option>
+                <option value="Emirate Airline">Emirate Airline</option>
+                <option value="Malaysia Airlines">Malaysia Airlines</option>
+                <option value="Air France">Air France</option>
+                <option value="British Airways">British Airways</option>
+                <option value="Lufthansa">Lufthansa</option>
+                <option value="Ryanair">Ryanair</option>
+                <option value="Air Peace">Air Peace</option>
+                <option value="Air Canada">Air Canada</option>
+                <option value="Alaska Airlines">Alaska Airlines</option>
+                <option value="Delta Airlines">Delta Airlines</option>
+                <option value="Aeroflot">Aeroflot</option>
+                <option value="Arik Air">Arik Air</option>
+                <option value="Jetstar">Jetstar</option>
+                <option value="Kingfisher Airlines">Kingfisher Airlines</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="dropdown">What does this Airline you prefer offer?</label>
+                <select id="dropdown">
+                    <option value="Extra Comfort">Extra Comfort</option>
+                    <option value="Free Dishes">Free Dishes</option>
+                    <option value="Excellent Customer Service">Excellent Customer Service</option>
+                    <option value="Free wi-fi">Free wi-fi</option>
+                    <option value="Keeping to Schedule">Keeping to Schedule</option>
+                    <option value="others">Others</option>
+                </select>
+        </div>
+        <section id="radio">
+        <div>
+            <label for="radio">Would you Recommend any of the Airlines to a Friend?</label>
+            <br>
+            <br>
+            <input id="Absolutely" type="radio"  name="Brand">
+            <label for="Absolutely">Absolutely</label>
+            <br>
+            <input id="Maybe" type="radio"  name="Brand">
+            <label for="Maybe">Maybe</label>
+            <br>
+            <input id="No" type="radio"  name="Brand">
+            <label for="No">No</label>
+            </div>
+        </section>
+        </div>
+        <section id="checkbox">
+        <div class="input.checkbox">
+            <label for="Choice">What Regions do you travel the most to with this Airlines?</label>
+            <br>
+            <br>
+            <input id="Europe" type="checkbox"  name="Region">
+            <label for="Europe">Europe</label>
+            <br>
+            <input id="Asia" type="checkbox"  name="Region">
+            <label for="Asia">Asia</label>
+            <br>
+            <input id="North America" type="checkbox"  name="Region">
+            <label for="North America">North America</label>
+            <br>
+            <input id="Africa" type="checkbox"  name="Region">
+            <label for="Africa">Africa</label>
+            <br>
+            <input id="Australia" type="checkbox"  name="Region">
+            <label for="Australia">Australia</label>
+            <br>
+            <input id="South America" type="checkbox"  name="Region">
+            <label for="South America">South America</label>
+            <br>
+            <input id="Antarctica" type="checkbox"  name="Region">
+            <label for="Antarctica">Antarctica</label>
+            <br>
+        </div>
+    </section>
+         <br>
+        <div>
+            <label for="Message">What else would you like Us to know, feel free.</label>
+            <textarea name="Message" input="text" placeholder="We Value your feedback..." class="textarea" value="required"></textarea>
+        </div>
+        <div>
+            <button type="submit" class="button">Submit</button>
+        </div>
+        <div>
+            <p>Thank you for your honest feedback and time, stay safe and enjoy the rest of your flights.</p>
+        </div>
+
+        <!--footer-->
+
+        <footer id="foot">
+            &copy; Copyright, 2021 by Benedict Okafor.
+        </footer>
+
+    </body>
+</html>
